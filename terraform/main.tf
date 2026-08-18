@@ -4,7 +4,7 @@ module "fynex_dev" {
   control_tower_parameters = {
     AccountEmail              = "dev@fynex.dev"
     AccountName               = "fynex-Dev"
-    ManagedOrganizationalUnit = "fynex-PreProd"
+    ManagedOrganizationalUnit = "Fynex-PreProd"
     SSOUserEmail              = "dev@fynex.dev"
     SSOUserFirstName          = "fynex"
     SSOUserLastName           = "Dev"
@@ -35,7 +35,7 @@ module "fynex_stage" {
   control_tower_parameters = {
     AccountEmail              = "stage@fynex.dev"
     AccountName               = "fynex-Stage"
-    ManagedOrganizationalUnit = "fynex-PreProd"
+    ManagedOrganizationalUnit = "Fynex-PreProd"
     SSOUserEmail              = "stage@fynex.dev"
     SSOUserFirstName          = "fynex"
     SSOUserLastName           = "Stage"
@@ -66,7 +66,7 @@ module "fynex_prod" {
   control_tower_parameters = {
     AccountEmail              = "prod@fynex.dev"
     AccountName               = "fynex-Prod"
-    ManagedOrganizationalUnit = "fynex-Prod"
+    ManagedOrganizationalUnit = "Fynex-Prod"
     SSOUserEmail              = "prod@fynex.dev"
     SSOUserFirstName          = "fynex"
     SSOUserLastName           = "Prod"
@@ -97,7 +97,7 @@ module "fynex_devops" {
   control_tower_parameters = {
     AccountEmail              = "devops@fynex.dev"
     AccountName               = "fynex-DevOps"
-    ManagedOrganizationalUnit = "fynex-DevOps"
+    ManagedOrganizationalUnit = "Fynex-Prod"
     SSOUserEmail              = "devops@fynex.dev"
     SSOUserFirstName          = "fynex"
     SSOUserLastName           = "DevOps"
