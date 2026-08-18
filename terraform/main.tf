@@ -12,7 +12,7 @@ module "fynex_dev" {
 
   account_tags = {
     "CreatedBy" = "milan.dangol"
-    "Date"      = "18/08/2026"
+    "Date"      = "19/08/2026"
     "Project"   = "fynex"
     "CreatedThough" = "AFT"
   }
@@ -43,7 +43,7 @@ module "fynex_stage" {
 
   account_tags = {
     "CreatedBy" = "milan.dangol"
-    "Date"      = "18/08/2026"
+    "Date"      = "19/08/2026"
     "Project"   = "fynex"
     "CreatedThough " = "AFT"
   }
@@ -74,7 +74,7 @@ module "fynex_prod" {
 
   account_tags = {
     "CreatedBy" = "milan.dangol"
-    "Date"      = "18/08/2026"
+    "Date"      = "19/08/2026"
     "Project"   = "fynex"
     "CreatedThough" = "AFT"
   }
@@ -105,7 +105,7 @@ module "fynex_devops" {
 
   account_tags = {
     "CreatedBy" = "milan.dangol"
-    "Date"      = "18/08/2026"
+    "Date"      = "19/08/2026"
     "Project"   = "fynex"
     "CreatedThough" = "AFT"
   }
